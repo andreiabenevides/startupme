@@ -177,8 +177,45 @@
         Preencha o formulário abaixo e nos envie um orçamento, utilize também para nos enviar dúvidas e/ ou sugestões.
       </p>
     </div>
+    <form>
+      Campos com * são de preenchimento obrigatório
+      <br>
+      <label for="username">Nome *</label>
+      <br>
+      <input type="text" id="username" name="nome" required minlength="4" maxlength="8" size="50">
+      <br>
+      <label for="email">Email*</label>
+      <br>
+      <input type="text" id="email" name="email" required minlength="4" maxlength="8" size="50">
+      <br>
+      <label for="phone">Telefone *</label>
+      <br>
+      <input type="text" id="phone" name="Telefone" required minlength="4" maxlength="8" size="50">
+      <br>
 
-      <form></form>
+      <label for="fale-conosco">O que você deseja?</label>
+      <br>
+      <select id="fale-conosco">
+        <option value="selecione">Selecione</option>
+        <option value="dog">Reclamação</option>
+        <option value="cat">Dúvida</option>
+        <option value="hamster">Orçamento</option>
+        <option value="parrot">Compra</option>
+        <option value="spider">Elogio</option>
+      </select>
+      <br>
+      <label for="story">Mensagem</label>
+      <br>
+      <textarea id="story" name="story"rows="10" cols="50">
+        Digite sua mensagem
+      </textarea>
+      <br>
+
+      <input class="favorite styled"
+      type="button"
+      value="Add to favorites">
+
+    </form>
     <div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1634996074513!2d-46.656504485383905!3d-23.562570667521182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8fd288145%3A0x4fe19f27924382d0!2sAv.+Paulista%2C+1374+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-100!5e0!3m2!1spt-BR!2sbr!4v1552266375579" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>

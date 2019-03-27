@@ -1,0 +1,23 @@
+header {
+  background-color: rgb(119,119,119);
+  background-image: url(../../images/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 80% contain;
+  color: rgb(255,255,255)
+}
+
+header .logo {
+  width: 100px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}

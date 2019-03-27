@@ -1,5 +1,6 @@
 @import url('./base/base.css');
 
+
 /* base */
 
 @import url('./reset.css');
@@ -10,7 +11,15 @@
 /* layouts  */
 
 @import url('./layout/containers.css');
+@import url('./layout/cabecalho.css');
+@import url('./layout/forms.css');
 
 /* pages */
 
 
+
+/* 
+xsmall: 420px
+medium: 768px
+large: 960px
+*/

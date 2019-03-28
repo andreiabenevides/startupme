@@ -1,10 +1,28 @@
 h1 {
   color: rgb(255,255,255);
   text-transform: uppercase;
+  font-size: x-large;
+
 }
 
 h2 {
 
-  color:rgb(254,209,54)
+  color:rgb(254,209,54);
+  font-size: large;
+  margin-bottom: 30px;
+}
+h3{
+  font-size: large;
+}
 
+.titulo {
+
+  font-size: medium;
+  font-family: 'open sans bold';
+  text-transform: none;
+}
+
+p {
+  font-size: small;
+  
 }

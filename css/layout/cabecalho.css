@@ -14,10 +14,20 @@ header .logo {
 .menu li {
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 30px;
+  
 }
 
 .menu a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.saiba-mais {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
 }

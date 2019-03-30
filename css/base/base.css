@@ -1,18 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   color: rgb(255,255,255);
   text-transform: uppercase;
-  font-size: x-large;
+  font-size: 25px;
 
 }
 
 h2 {
 
   color:rgb(254,209,54);
-  font-size: large;
-  margin-bottom: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
-h3{
+  
+h3 {
+
   font-size: large;
+  margin-bottom: 20px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 .titulo {
@@ -20,6 +30,8 @@ h3{
   font-size: medium;
   font-family: 'open sans bold';
   text-transform: none;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 p {

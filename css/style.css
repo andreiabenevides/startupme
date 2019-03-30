@@ -1,9 +1,8 @@
-@import url('./base/base.css');
-
-
 /* base */
 
 @import url('./reset.css');
+
+@import url('./base/base.css');
 
 /* components  */
 @import url('./components/botao.css');
@@ -16,7 +15,7 @@
 
 /* pages */
 
-
+@import url('./pages/startupme.css');
 
 /* 
 xsmall: 420px

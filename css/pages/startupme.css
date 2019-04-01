@@ -47,3 +47,91 @@
   padding-right: 30px;
   margin-bottom: 40px;
 }
+
+/*Estilizando Div Funcionários */
+
+.funcionarios p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.funcionarios img {
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.funcionarios figure {
+  display: inline-block;
+}
+.joao {
+  margin-bottom: 40px;
+}
+
+.patricia {
+  margin-bottom: 40px;
+}
+
+.miguel {
+  margin-bottom: 40px;
+}
+
+.jean {
+  margin-bottom: 40px;
+}
+
+
+.mobile {
+  display: table;
+}
+
+/*Estilizando Div Recursos */
+
+.recursos-nativos-img {
+  width: 150px;
+  height: 100px;
+  display: table-cell;
+  float: left;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.recursos-nativos-texto {
+  display: table-cell;
+  width: 200px;
+  float: left;
+}
+
+/*Estilizando Div Smartphones */
+.smartphones {
+  display: table;
+}
+
+.smartphones-imagem {
+  display: table-cell;
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+}
+
+.smartphones-texto {
+  display: table-cell;
+  float: left;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+
+.sistema-operacional img {
+  width: 45px;
+  height: 27px;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.sistema-operacional {
+  margin-left: 120px;
+}

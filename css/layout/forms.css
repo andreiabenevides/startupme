@@ -3,3 +3,8 @@ select,
 textarea {
   width: 100%
 }
+
+form p {
+  margin-bottom: 60px;
+  color: rgb(255,255,255);
+}

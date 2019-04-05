@@ -10,11 +10,14 @@
   margin-bottom: 30px;
 }
 
-small {
-  margin-bottom: 50px;
-  color: rgb(255,255,255);
-}
-
 form p {
   margin-bottom: 60px;
+  
 }
+
+iframe {
+  width: 300px; 
+}
+
+
+

@@ -1,10 +1,29 @@
 input[type="text"],
 select,
 textarea {
-  width: 100%
+  width: 300px;
+  display: block;
+  border-radius: 1px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.formulario {
+  margin-left: 40px;
 }
 
 form p {
-  margin-bottom: 60px;
   color: rgb(255,255,255);
+}
+
+label {
+  color: rgb(255,255,255);
+  margin-bottom: 10px;
+}
+
+footer button {
+  padding: 10px 30px;
+  margin-bottom: 35px;
+  margin-left: 200px;
+  
 }

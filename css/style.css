@@ -3,6 +3,7 @@
 @import url('./reset.css');
 
 @import url('./base/base.css');
+@import url('../icons/icons.css');
 
 /* components  */
 @import url('./components/botao.css');

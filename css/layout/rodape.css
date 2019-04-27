@@ -2,6 +2,8 @@
   background-image: url(../../images/bg-footer.jpg);
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
+  padding-bottom: 40px;
   
 }
 
@@ -15,9 +17,43 @@ form p {
   
 }
 
-iframe {
-  width: 300px; 
+.iframe {
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  
 }
 
+.iframe p {
+  color: rgb(255,255,255);
+}
 
+.iframe span {
+  color: rgb(254,209,54);
+  line-height: 1.5;
+ 
+}
 
+.icon-facebook2 {
+  color: rgb(254,209,54);
+}
+
+.icon-twitter,
+.icon-github,
+.icon-linkedin2 {
+  color: rgb(119,119,119);
+}
+
+footer .logo {
+  max-width:100px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+.icon-facebook2,
+.icon-twitter,
+.icon-github,
+.icon-linkedin2 {
+  display: inline-block;
+}

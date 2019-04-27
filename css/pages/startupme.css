@@ -7,6 +7,9 @@
 .smartphones {
   background-color: rgb(245,245,245);
 }
+.teste {
+  background-color: rgb(245,245,245);
+}
 
 .aplicativos figure {
   display:inline-block;
@@ -125,11 +128,13 @@
 }
 
 .sistema-operacional img {
-  width: 45px;
-  height: 27px;
+  max-width: 50px;
+  max-height: 35px;
   display: inline-block;
   padding: 5px;
   margin-bottom: 50px;
+  width: auto;
+  height: auto;
 }
 
 .sistema-operacional {

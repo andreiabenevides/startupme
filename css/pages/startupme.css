@@ -1,5 +1,3 @@
-
-
 .funcionarios {
   background-color: rgb(245,245,245);
 }
@@ -11,37 +9,21 @@
   background-color: rgb(245,245,245);
 }
 
+
 .aplicativos figure {
-  display:inline-block;
+  display: inline-block;
+  width: 35%;
+  padding-bottom: 20px;
 }
 
-.airplane {
-  margin-right: 40px;
-  
-}
-.field {
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-.services {
-  margin-right: 40px;
-}
-.chielf {
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-
-.bag {
-  margin-right: 40px;
-}
-.student {
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-
+@media screen and (min-width: 750px) {
+  .aplicativos figure {
+    padding-left: 10px;
+    width: 14%;
+  }
+} 
 
 .produto p {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -52,6 +34,13 @@
 }
 
 /*Estilizando Div Funcionários */
+
+.funcionarios figure {
+  display: inline-block;
+  width: 45%;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
 
 .funcionarios p {
   margin-top: 20px;
@@ -64,54 +53,42 @@
   height: 150px;
 }
 
-.funcionarios figure {
-  display: inline-block;
-}
-.joao {
-  margin-bottom: 40px;
-}
-
-.patricia {
-  margin-bottom: 40px;
+@media screen and (min-width: 750px) {
+  .funcionarios figure {
+    padding-left: 10px;
+    width: 20%;
+  }
 }
 
-.miguel {
-  margin-bottom: 40px;
-}
-
-.jean {
-  margin-bottom: 40px;
-}
-
-
-.mobile {
-  display: table;
-}
 
 /*Estilizando Div Recursos */
 
+.clearfix {
+  overflow: auto;
+}
 .recursos-nativos-img {
   width: 150px;
   height: 100px;
-  display: table-cell;
   float: left;
   margin-top: 80px;
   margin-left: 20px;
 }
 
 .recursos-nativos-texto {
-  display: table-cell;
   width: 200px;
   float: left;
 }
 
+/* @media screen and (min-width: 500px) {
+  .recursos-nativos-img {
+    width: 0px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 20px;
+} */
 /*Estilizando Div Smartphones */
-.smartphones {
-  display: table;
-}
 
 .smartphones-imagem {
-  display: table-cell;
   width: 150px;
   height: 100px;
   float: left;
@@ -119,7 +96,6 @@
 }
 
 .smartphones-texto {
-  display: table-cell;
   float: left;
   width: 200px;
   margin-top: 50px;
@@ -128,17 +104,12 @@
 }
 
 .sistema-operacional img {
-  max-width: 50px;
-  max-height: 35px;
+  max-height: 50px;
   display: inline-block;
   padding: 5px;
   margin-bottom: 50px;
-  width: auto;
-  height: auto;
 }
 
 .sistema-operacional {
   margin-left: 120px;
 }
-
-

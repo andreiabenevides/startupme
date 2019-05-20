@@ -61,22 +61,27 @@
 }
 
 
-/*Estilizando Div Recursos */
+.recursos {
+  display: flex;
+  flex-direction: column
 
-.clearfix {
-  overflow: auto;
 }
+@media screen and (min-width: 750px) {
+  .recursos{
+  flex-direction: row;
+  }
+} 
+
+
 .recursos-nativos-img {
-  width: 150px;
-  height: 100px;
-  float: left;
-  margin-top: 80px;
-  margin-left: 20px;
+  flex: 1 1 60%;
+  width: 85%;
 }
+
 
 .recursos-nativos-texto {
-  width: 200px;
-  float: left;
+  flex: 1 1 40%;
+
 }
 
 /* @media screen and (min-width: 500px) {
@@ -89,27 +94,18 @@
 /*Estilizando Div Smartphones */
 
 .smartphones-imagem {
-  width: 150px;
-  height: 100px;
-  float: left;
-  margin-top: 50px;
+
 }
 
 .smartphones-texto {
-  float: left;
-  width: 200px;
-  margin-top: 50px;
-  margin-left: 20px;
+
   
 }
 
 .sistema-operacional img {
-  max-height: 50px;
-  display: inline-block;
-  padding: 5px;
-  margin-bottom: 50px;
+
 }
 
-.sistema-operacional {
+/* .sistema-operacional {
   margin-left: 120px;
-}
+} */

@@ -3,18 +3,31 @@ header {
   background-image: url(../../images/bg-header.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  color: rgb(255,255,255)
+  color: rgb(255,255,255);
+
+  @media screen and (min-width: 750px) {
+    
+  }
 }
 
-header .logo {
-  width: 100px;
+
+@media only screen and (min-width: 750px){
+  header img {
+    width: 200px;
+  }
+
+  .logo {
+    text-align: left;
+  }
+  
+  .menu {
+  text-align: right;
+  }
 }
 
 .menu li {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  
+  padding: 10px;
 }
 
 .menu a {
@@ -28,5 +41,6 @@ header button {
   margin-bottom: 80px;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
+
+

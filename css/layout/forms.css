@@ -8,8 +8,8 @@ textarea {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.formulario {
-  margin-left: 40px;
+form {
+  
 }
 
 form p {
@@ -19,6 +19,7 @@ form p {
 label {
   color: rgb(255,255,255);
   margin-bottom: 10px;
+  display: -webkit-box;
 }
 
 footer button {

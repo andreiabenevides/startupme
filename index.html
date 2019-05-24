@@ -10,26 +10,28 @@
   <body>
     <header>
       <div class="container-main">
-        <div class="logo">   
-          <img src="images/startup-me_logo.png" alt="Startup-me">
-        </div>
-        <div class="menu">
-          <nav>
-            <ul>
-              <li>
-                <a href="#">home</a>
-              </li>
-              <li>
-                <a href="#">sobre</a>
-              </li>
-              <li>
-                <a href="#">apps</a>
-              </li>
-              <li>
-                <a href="#">contato</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="cabecalho">
+          <div class="logo">   
+            <img src="images/startup-me_logo.png" alt="Startup-me">
+          </div>
+          <div class="menu">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">home</a>
+                </li>
+                <li>
+                  <a href="#">sobre</a>
+                </li>
+                <li>
+                  <a href="#">apps</a>
+                </li>
+                <li>
+                  <a href="#">contato</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div id="banner">
           <h1>
@@ -98,7 +100,7 @@
                 Treinamentos
               </figcaption>
             </figure>
-          </div> 
+          </div>
           <p>
             Seu ramo de atuação não está por aqui?
             <br>
@@ -106,8 +108,11 @@
           </p> 
           <button type="button">Entrar em Contato</button>
         </div>
+      </div>
 
-        <div class="funcionarios">
+
+      <div class="funcionarios">
+        <div class="container-main">
           <h3>Pessoas incriveis trabalhando juntas para obter melhor resultado</h3>
           <p>
             Estas são algumas pessoas que fazerm parte do nosso experiente time que compoe a StartUp-Me.
@@ -115,31 +120,47 @@
           <figure>
             <img src="images/joao-ricardo-b-sutter.jpg" alt="João Ricardo B. Sutter">
             <figcaption>
-              <strong>João Ricardo B. Sutter</strong>
-              </br>
+              <strong>
+                João Ricardo B.
+                <br>
+                  Sutter
+              </strong>
+              <br>
               Fullstack Developer
             </figcaption>
           </figure>
           <figure>
             <img src="images/patricia-mascarenhas.jpg" alt="Patrícia Mascarenhas">
             <figcaption>
-              <strong>Patrícia Mascarenhas</strong>
-              </br>
+              <strong>
+                Patrícia 
+                <br>
+                Mascarenhas
+              </strong>
+              <br>
               UX/ UI Especialist
             </figcaption>
           </figure>
           <figure>
             <img src="images/miguel-dos-santos-arcanjo.jpg" alt="Miguel dos Santos Arcanjo">
             <figcaption>
-              <strong>Miguel dos Santos Arcanjo</strong>
-              </br>
+              <strong>
+                Miguel dos Santos
+                <br>
+                Arcanjo
+              </strong>
+              <br>
               Senior Designer
             </figcaption>
           </figure>
           <figure>
             <img src="images/jean-carlos-madeiro.jpg" alt="Jean Carlos Madeiro">
             <figcaption>
-                <strong>Jean Carlos Madeiro</strong>
+                <strong>
+                  Jean Carlos
+                  <br>
+                  Madeiro
+                </strong>
                 <br>
                 Project Manager
               </figcaption>
@@ -165,30 +186,33 @@
             <img src="images/native-resources.png" alt="Recursos Nativos">
           </div>
         </div> 
+      </div>
 
-        <div class="smartphones">
-          <div class="smartphones-imagem">
-            <img src="images/smartphones.png" alt="Smartphones">
+      <div class="smartphones">
+        <div class="container-main">
+          <div class="container-flex">
+            <div class="smartphones-imagem">
+              <img src="images/smartphones.png" alt="Smartphones">
+            </div>
+            <div class="smartphones-texto">
+              <h3>Desenvolvemos apps para todas as plataformas mobile, compatível com todos os celulares e dispositivos móvies</h3>
+              <p>
+                Todos os Apps produzidos por nós da StartUp-Me são multi-plataforma, funcionam em aparelhos com IOS(iPhone/ iPad), Android, Windows Phone e FirefoxOS.
+              </p>
+              <div class="sistema-operacional">
+      
+                <img src="images/icon-apple-ios.png" alt="apple">
+              
+                <img src="images/icon-android.png" alt="android">
+            
+                <img src="images/icon-windows-phone.png" alt="windows phone">
+              
+                <img src="images/incon-firefox-os.png" alt="firefox OS">
+              </div>
+            </div>
           </div>
-          <div class="smartphones-texto">
-            <h3>Desenvolvemos apps para todas as plataformas mobile, compatível com todos os celulares e dispositivos móvies</h3>
-            <p>
-              Todos os Apps produzidos por nós da StartUp-Me são multi-plataforma, funcionam em aparelhos com IOS(iPhone/ iPad), Android, Windows Phone e FirefoxOS.
-            </p>
-          </div>
-
-          <div class="sistema-operacional">
-
-            <img src="images/icon-apple-ios.png" alt="apple">
-          
-            <img src="images/icon-android.png" alt="android">
-        
-            <img src="images/icon-windows-phone.png" alt="windows phone">
-          
-            <img src="images/incon-firefox-os.png" alt="firefox OS">
-          </figure>
         </div>
-      </div> 
+      </div>
     </section>
 
     <footer>
@@ -200,12 +224,12 @@
       </div>
       <div class="rodape">
         <div class="container-main">
+          <P>
+            <small>Campos com * são de preenchimento obrigatório</small>
+          </P>
           <div class="container-flex">
             <div class="flex-item">
               <form>
-                <P>
-                  <small>Campos com * são de preenchimento obrigatório</small>
-                </P>
                 
                 <label for="username">Nome *</label>
                 
@@ -239,7 +263,9 @@
               </form>
             </div>
             <div class="flex-item">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1634996074513!2d-46.656504485383905!3d-23.562570667521182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8fd288145%3A0x4fe19f27924382d0!2sAv.+Paulista%2C+1374+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-100!5e0!3m2!1spt-BR!2sbr!4v1552266375579" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <span class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1573058916115!2d-46.65685818440687!3d-23.56279316753168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8e65114ab%3A0x77a9bdfbd2f90d5b!2sAv.+Paulista%2C+1374+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-100!5e0!3m2!1spt-BR!2sbr!4v1558546516412!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </span>
               <address>
                 <h4>StartUp-Me Desenvolvimento de Software</h4>
                 <p>
@@ -259,12 +285,14 @@
           </div>
         </div>
       </div>
-      <img class="logo" src="images/startup-me_logo.png" alt="Startup-me">
-      <div class="icones">
-        <div class="icon-facebook2"></div>
-        <div class="icon-twitter"></div>
-        <div class="icon-github"></div>
-        <div class="icon-linkedin2"></div>
+      <div class="container-main">
+        <img class="logo" src="images/startup-me_logo.png" alt="Startup-me">
+        <div class="icones">
+          <div class="icon-facebook2"></div>
+          <div class="icon-twitter"></div>
+          <div class="icon-github"></div>
+          <div class="icon-linkedin2"></div>
+        </div>
       </div>
     </footer>
   </body>

@@ -10,27 +10,23 @@ header {
   }
 }
 
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+}
 
 @media only screen and (min-width: 750px){
-  header img {
-    width: 200px;
-  }
-
-  .logo {
-    text-align: left;
-  }
-  
-  .menu {
-  text-align: right;
+  .cabecalho {
+    flex-direction: row;
   }
 }
 
-.menu li {
+nav li {
   display: inline-block;
   padding: 10px;
 }
 
-.menu a {
+nav a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;

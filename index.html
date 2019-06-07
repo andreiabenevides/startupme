@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
     <title>Startup-Me</title>
   </head>
   <body>
     <header>
       <div class="container-main">
-        <div class="cabecalho">
-          <div class="logo">   
-            <img src="images/startup-me_logo.png" alt="Startup-me">
-          </div>
+        <div class="cabecalho clearfix"> 
+          <img src="images/startup-me_logo.png" alt="Startup-me">
           <div class="menu">
             <nav>
               <ul>
@@ -33,7 +30,7 @@
             </nav>
           </div>
         </div>
-        <div id="banner">
+        <div class="banner">
           <h1>
             <span class="titulo"> Bem vindo ao nosso estúdio</span>
             Crie agora seu app para sua empresa
@@ -175,14 +172,14 @@
         <p>
           Os Apps na StartUp-Me segue os padrões atuais para desenvolvimento mobile, juntamente com metodologias ágeis. todos os projetos incluem análise de viabilidade de mercado, concepção de User Interface e User experience, Criação Gráfica e Plano de Marketing, sempre buscando o maior nível de engajamentos dos clientes. Aliando o melhor custo/ prazo/ benefício.
         </p>
-          <div class="recursos">
-          <div class="recursos-nativos-texto">
+        <div class="container-flex">
+          <div class="flex-texto">
             <h3>Extraímos o máximo dos aparelhos utilizando os recursos nativos</h3>
             <p>
               Nossos Apps se integram com as funcionalidades e recursos nativos dos seu aparellho como: Câmera, GPS, Galeria de fotos, Áudio e Vídeo, Calendários, Lista de contatos, potencializamos uso do Acelerômetro, do Giroscópio e muito mais!
             </p>
           </div>
-          <div class="recursos-nativos-img">
+          <div class="flex-img">
             <img src="images/native-resources.png" alt="Recursos Nativos">
           </div>
         </div> 
@@ -191,10 +188,7 @@
       <div class="smartphones">
         <div class="container-main">
           <div class="container-flex">
-            <div class="smartphones-imagem">
-              <img src="images/smartphones.png" alt="Smartphones">
-            </div>
-            <div class="smartphones-texto">
+            <div class="flex-texto">
               <h3>Desenvolvemos apps para todas as plataformas mobile, compatível com todos os celulares e dispositivos móvies</h3>
               <p>
                 Todos os Apps produzidos por nós da StartUp-Me são multi-plataforma, funcionam em aparelhos com IOS(iPhone/ iPad), Android, Windows Phone e FirefoxOS.
@@ -209,6 +203,9 @@
               
                 <img src="images/incon-firefox-os.png" alt="firefox OS">
               </div>
+            </div>
+            <div class="flex-img">
+              <img src="images/smartphones.png" alt="Smartphones">
             </div>
           </div>
         </div>
@@ -233,33 +230,30 @@
                 
                 <label for="username">Nome *</label>
                 
-                <input type="text" id="username" name="nome" required minlength="4" maxlength="8" size="50">
+                <input type="text" id="username" name="nome" required minlength="4">
                 
                 <label for="email">Email*</label>
               
-                <input type="text" id="email" name="email" required minlength="4" maxlength="8" size="50">
+                <input type="email" id="email" name="email" required minlength="4">
                 
                 <label for="phone">Telefone *</label>
               
-                <input type="text" id="phone" name="Telefone" required minlength="4" maxlength="8" size="50">
+                <input type="text" id="phone" name="Telefone" required minlength="10">
         
                 <label for="fale-conosco">O que você deseja?</label>
                 
-                <select id="fale-conosco">
-                  <option value="selecione">Selecione</option>
+                <select id="fale-conosco" required minlength="10">
+                  <option value="orcamento">Orçamento</option>
                   <option value="reclamacao">Reclamação</option>
                   <option value="duvida">Dúvida</option>
-                  <option value="orcamento">Orçamento</option>
                   <option value="compra">Compra</option>
                   <option value="elogio">Elogio</option>
                 </select>
                 
                 <label for="story">Mensagem</label>
               
-                <textarea id="story" name="story"rows="10" cols="50">
-                  Digite sua mensagem
-                </textarea>
-                <button type="button">Enviar</button>
+                <textarea id="story" name="story"rows="10" cols="50" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
               </form>
             </div>
             <div class="flex-item">
@@ -286,7 +280,9 @@
         </div>
       </div>
       <div class="container-main">
-        <img class="logo" src="images/startup-me_logo.png" alt="Startup-me">
+        <div>
+          <img class="logo" src="images/startup-me_logo.png" alt="Startup-me">
+        </div>
         <div class="icones">
           <div class="icon-facebook2"></div>
           <div class="icon-twitter"></div>

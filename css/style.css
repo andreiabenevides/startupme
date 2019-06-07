@@ -4,6 +4,7 @@
 
 @import url('./base/base.css');
 @import url('../icons/icons.css');
+@import url('./base/fonts.css');
 
 /* components  */
 @import url('./components/botao.css');

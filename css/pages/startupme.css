@@ -25,7 +25,7 @@
 } 
 
 .produto p {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .produto button {
@@ -52,8 +52,12 @@
   width: 150px;
   height: 150px;
   border: 10px solid rgb(255,255,255);
+  transition: width 2s, height 2s, transform 2s;
 }
-
+.funcionarios img:hover {
+  transform: rotate(360deg);
+  border: 10px solid rgb(254,209,54);
+}
 @media screen and (min-width: 500px) {
   .funcionarios figure {
     padding-left: 10px;
@@ -68,8 +72,34 @@
   }
 }
 
+.container-flex {
+  flex-direction: column;
+}
 
-.recursos {
+.flex-texto {
+  flex: 1 0 46%;
+  text-align: left;
+}
+
+.flex-img {
+  flex: 1;
+}
+
+.flex-img img {
+  width: 300px;;
+}
+
+@media screen and (min-width: 750px) {
+  .container-flex {
+    flex-direction: row;
+  }
+} 
+
+.smartphones .container-flex {
+  flex-direction: row-reverse;
+}
+
+/* .recursos {
   display: flex;
   flex-direction: column;
 
@@ -81,17 +111,13 @@
 } 
 
 
-.recursos-nativos-img {
-  flex: 1 1 50%;
- 
+.recursos-img {
+  flex: 1;
 }
 
-.recursos-nativos-img img {
-  width: 50%;
-}
 
 .recursos-nativos-texto {
-  flex: 1 1 50%;
+  flex: 1;
   text-align: left;
 
 }
@@ -105,16 +131,13 @@
   flex-direction: row;
   }
 } 
-.smartphones-imagem {
-  
-}
 
 .smartphones-texto {
   align-self: center;
-}
+} */
 
 .sistema-operacional img {
-  width: 17%;
+  width: 10%;
   display: inline-block;
   padding: 10px;
 }

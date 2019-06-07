@@ -1,11 +1,12 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OpenSans-Regular','arial';
 }
 
 h1 {
   color: rgb(255,255,255);
   text-transform: uppercase;
   font-size: 25px;
+  font-family: 'OpenSans-ExtraBold';
 }
 
 @media only screen and (min-width: 750px){
@@ -15,11 +16,11 @@ h1 {
 }
 
 h2 {
-
   color: rgb(254,209,54);
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 18px;
+  font-family: 'OpenSans-Bold';
 }
 
 @media only screen and (min-width: 750px){
@@ -29,10 +30,10 @@ h2 {
 }
   
 h3 {
-
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-family: 'OpenSans-Bold';
 }
 
 h4 {
@@ -45,9 +46,9 @@ h4 {
 p {
   font-size: 16px;
   color: rgb(119,119,119);
-  line-height: 120%;
-  
+  line-height: 120%; 
 }
+
 .titulo {
 
   font-size: 16px;
@@ -63,3 +64,12 @@ p {
   }
 }
 
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}

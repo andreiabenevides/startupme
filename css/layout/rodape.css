@@ -11,9 +11,6 @@
   margin: 30px;
 }
 
-.rodape {
-  text-align: center;
-}
 
 .rodape p small {
   text-align: left;
@@ -33,7 +30,7 @@
 }
 
 .rodape .flex-item + .flex-item {
-
+  margin-left: 50px;
 }
 
 @media screen and (min-width: 700px) {
@@ -65,6 +62,17 @@ address p {
 address span {
   color: rgb(254,209,54);
 }
+
+.icons {
+  display: flex;
+}
+.logo {
+  flex: 1 1 50%;
+}
+
+.icones {
+  flex: 1 1 50%;
+}
 footer .logo {
   max-width:100px;
   max-height:50px;
@@ -88,3 +96,4 @@ footer .logo {
 .icon-linkedin2 {
   display: inline-block;
 }
+

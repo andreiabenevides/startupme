@@ -9,8 +9,10 @@ textarea {
   margin-top: 5px;
   padding: 7px 0;
 }
-form {
-  text-align: left;
+
+input,
+textarea {
+  padding-left: 5px;
 }
 
 form p {
@@ -26,4 +28,8 @@ footer button {
   padding: 10px 30px;
   margin-bottom: 35px;
 
+}
+
+.botao {
+  text-align: right;
 }

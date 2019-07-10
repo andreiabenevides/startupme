@@ -73,3 +73,13 @@ p {
   clear: both;
   display: table;
 }
+
+.funcionarios,
+.smartphones {
+  background-color: rgb(245,245,245);
+}
+
+section {
+  text-align: center;
+}
+

@@ -1,0 +1,49 @@
+.container-flex {
+  flex-direction: column;
+}
+
+.flex-texto {
+  flex: 1 0 14%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+.flex-img {
+  flex: 1;
+  padding-top: 40px;
+}
+
+.flex-img img {
+  width: 300px;
+}
+
+@media screen and (min-width: 750px) {
+  .container-flex {
+    flex-direction: row;
+  }
+} 
+
+.smartphones .container-flex {
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 750px) {
+  .smartphones .container-flex {
+    flex-direction: row-reverse;
+  }
+} 
+
+.sistema-operacional {
+  text-align: center;
+}
+
+.sistema-operacional img {
+  width: 65px;
+  display: inline-block;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.sistema-operacional img:hover {
+  transform: rotateY(180deg);
+}

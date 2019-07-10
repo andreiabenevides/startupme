@@ -11,7 +11,6 @@
   margin: 30px;
 }
 
-
 .rodape p small {
   text-align: left;
   color:rgb(255,255,255);
@@ -20,8 +19,6 @@
 .rodape .container-flex {
   flex-direction: column;
   margin-top: 40px;
-
-
 }
 
 .rodape .flex-item {
@@ -37,10 +34,6 @@
   .rodape .container-flex {
     flex-direction: row;
   }
-}
-
-iframe {
-  margin-top: 20px;
 }
 
 address {
@@ -67,12 +60,14 @@ address span {
   display: flex;
 }
 .logo {
-  flex: 1 1 50%;
+  flex: 1;
 }
 
 .icones {
-  flex: 1 1 50%;
+  flex: 1;
+  text-align: right;
 }
+
 footer .logo {
   max-width:100px;
   max-height:50px;
@@ -80,20 +75,19 @@ footer .logo {
   height: auto;
 }
 
+.logo p {
+  font-size: 8px;
+  font-family: 'OpenSans-ExtraBold';
+}
+
 .icon-facebook2 {
+  display: inline-block;
   color: rgb(254,209,54);
 }
 
 .icon-twitter,
 .icon-github,
 .icon-linkedin2 {
+  display: inline-block;
   color: rgb(119,119,119);
 }
-
-.icon-facebook2,
-.icon-twitter,
-.icon-github,
-.icon-linkedin2 {
-  display: inline-block;
-}
-

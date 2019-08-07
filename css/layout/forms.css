@@ -1,0 +1,35 @@
+input,
+select,
+textarea {
+  width: 100%;
+  display: block;
+  border-radius: 1px;
+  border: none;
+  margin-bottom: 22px;
+  margin-top: 5px;
+  padding: 7px 0;
+}
+
+input,
+textarea {
+  padding-left: 5px;
+}
+
+form p {
+  color: rgb(255,255,255);
+}
+
+label {
+  color: rgb(255,255,255);
+  margin-bottom: 10px;
+}
+
+footer button {
+  padding: 10px 30px;
+  margin-bottom: 35px;
+
+}
+
+.btn-form {
+  text-align: right;
+}

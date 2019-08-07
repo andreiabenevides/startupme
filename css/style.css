@@ -1,0 +1,29 @@
+/* base */
+
+@import url('./reset.css');
+
+@import url('./base/base.css');
+@import url('../icons/icons.css');
+@import url('./base/fonts.css');
+
+/* components  */
+@import url('./components/botao.css');
+
+/* layouts  */
+
+@import url('./layout/containers.css');
+@import url('./layout/cabecalho.css');
+@import url('./layout/forms.css');
+@import url('./layout/rodape.css');
+
+/* pages */
+
+@import url('./pages/startupme.css');
+@import url('./pages/apresentacao.css');
+@import url('./pages/tecnologia.css');
+
+/* 
+xsmall: 420px
+medium: 768px
+large: 960px
+*/

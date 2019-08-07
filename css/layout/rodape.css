@@ -1,0 +1,93 @@
+.rodape {
+  background-image: url(../../images/bg-footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.contato {
+  text-align: center;
+  margin: 30px;
+}
+
+.rodape p small {
+  text-align: left;
+  color:rgb(255,255,255);
+}
+
+.rodape .container-flex {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.rodape .flex-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.rodape .flex-item + .flex-item {
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 700px) {
+  .rodape .container-flex {
+    flex-direction: row;
+  }
+}
+
+address {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  address {
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+address p {
+  margin-bottom: 5px;
+  color: rgb(255,255,255);
+}
+
+address span {
+  color: rgb(254,209,54);
+}
+
+.icons {
+  display: flex;
+}
+.logo {
+  flex: 1;
+}
+
+.icones {
+  flex: 1;
+  text-align: right;
+}
+
+footer .logo {
+  max-width:100px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+.logo p {
+  font-size: 8px;
+  font-family: 'OpenSans-ExtraBold';
+}
+
+.icon-facebook2 {
+  display: inline-block;
+  color: rgb(254,209,54);
+}
+
+.icon-twitter,
+.icon-github,
+.icon-linkedin2 {
+  display: inline-block;
+  color: rgb(119,119,119);
+}

@@ -1,0 +1,44 @@
+header {
+  background-color: rgb(119,119,119);
+  background-image: url(../../images/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: rgb(255,255,255);
+  text-align: center;
+}
+
+@media only screen and (min-width: 750px){
+  .cabecalho {
+    margin-bottom: 40px;
+  }
+  .cabecalho img {
+    float: left;
+    width: 20%;
+  }
+  .menu {
+    float: right;
+  }
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: rgb(254,209,54);
+}
+
+header button {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding: 14px 30px;
+}
+
+

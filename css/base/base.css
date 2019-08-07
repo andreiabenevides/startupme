@@ -1,0 +1,85 @@
+body {
+  font-family: 'OpenSans-Regular','arial';
+}
+
+h1 {
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'OpenSans-ExtraBold';
+}
+
+@media only screen and (min-width: 750px){
+   header h1 {
+     font-size: 45px;
+   }
+}
+
+h2 {
+  color: rgb(254,209,54);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'OpenSans-Bold';
+}
+
+@media only screen and (min-width: 750px){
+  h2 {
+    font-size: 24px;
+  }
+}
+  
+h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'OpenSans-Bold';
+}
+
+h4 {
+  color: rgb(254,209,54);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(119,119,119);
+  line-height: 120%; 
+}
+
+.titulo {
+
+  font-size: 16px;
+  font-family: 'open sans bold';
+  text-transform: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+@media only screen and (min-width: 750px){
+  .titulo {
+    font-size: 24px;
+  }
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.funcionarios,
+.smartphones {
+  background-color: rgb(245,245,245);
+}
+
+section {
+  text-align: center;
+}
+
